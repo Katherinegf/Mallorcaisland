@@ -1,37 +1,47 @@
-.body{
-  background-color: rgb(238, 223, 200);
-  font-size: 16px;
-  margin-top: 30px ;
-  margin-left:  150px;
-  margin-right: 50px;
-  margin-bottom: 30px;
-}
- 
+html, body{
+  background-color: rgb(223, 215, 203);
+  
+  }
+
 .top-menu {
- background-color: rgb(238, 223, 200);
- color:#4123d7
- height: 40px;
+  background-color: rgb(231, 204, 164);
+  color: blue;
+  height: 40px;
+}
+
+.top-menu > .container {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+  
+  .top-menu .navigation {
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    margin: 0 0 0 0.3rem;
+    }
+  .top-menu a {
+    margin: 0 1.2rem;
+  }
+
+
+    .top-menu .social-media {
+      margin: 1rem
+      }
+      .top-menu .social-media a {
+        margin: 0 0.3rem;
       }
 
-.navigation {
-  list-style-type: none;
-  margin: 150;
-  padding: 8px;
-  margin-top: 50;
-  margin-left: 100px;
-  margin-right: 100px;
-  padding: 100;
-           }
+      .top-menu .social-media a:last :last-child {
+        margin: 0 0 0 0.3rem;
+      }
 
+      .mallorca{
+        color:blue;
+      }
 
-.social-media {
-  color: blue;
-  text-decoration: none;
-  height: 40px;
-  margin-right: 0;
-  margin-left: 1000px;
-  justify-content: space-between;
-            }
 
 div.first{
   position: center;
@@ -55,8 +65,8 @@ div.first{
   width: 75%;
   margin: auto;
   padding: 20px;
-  border-radius: 5px;
-  box-shadow: 10px 10px 10px #ccc;
+  border-radius: 10px;
+  box-shadow: 30px 30px 30px #b88181;
     } 
 
 div.container {
