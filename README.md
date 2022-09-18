@@ -10,7 +10,7 @@ Built this website to show attractions of MAllorca and to show what I have learn
 
 Run Locally
 
-Run this command git clone https://github.com/qjunaid623/matiariWebsite.git
+Run this command git clone 
 You are now in the dev environment and you can play around
 
 TECH STACK
