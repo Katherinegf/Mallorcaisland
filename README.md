@@ -6,7 +6,7 @@ DESCRIPTION:
 A Website about Baelaric island-Mallorca, that contains basic Information about Mallorca. Beaches, Restaurants and shopping.
 
 TASK
-Built this website to show attractions of MAllorca and to show what I have learn with my HTML5, CSS skills.
+Built this website to show attractions of Mallorca and to show what I have learn with my HTML5, CSS skills.
 
 
 
