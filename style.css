@@ -1,5 +1,6 @@
+
 html, body{
-  background-color: rgb(223, 215, 203);
+  background-color: rgb(233, 218, 194);
   
   }
 
@@ -26,7 +27,26 @@ html, body{
     margin: 0 1.2rem;
   }
 
-
+  .left {
+    background-color: #2196F3;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    background-color: #f1f1f1;
+    padding: 20px;
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  .right {
+    background-color: #04AA6D;
+    padding: 20px;
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
     .top-menu .social-media {
       margin: 1rem
       }
