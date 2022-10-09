@@ -10,14 +10,14 @@ html, body{
   height: 40px;
 }
 
-.top-menu > .container {
+.top-menu .container {
   height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   }
   
-  .top-menu .navigation {
+  .top-menu #navigation {
     display: flex;
     justify-content: left;
     list-style-type: none;
@@ -27,26 +27,8 @@ html, body{
     margin: 0 1.2rem;
   }
 
-  .left {
-    background-color: #2196F3;
-    padding: 20px;
-    float: left;
-    width: 20%; /* The width is 20%, by default */
-  }
   
-  .main {
-    background-color: #f1f1f1;
-    padding: 20px;
-    float: left;
-    width: 60%; /* The width is 60%, by default */
-  }
-  
-  .right {
-    background-color: #04AA6D;
-    padding: 20px;
-    float: left;
-    width: 20%; /* The width is 20%, by default */
-  }
+
     .top-menu .social-media {
       margin: 1rem
       }
@@ -54,52 +36,155 @@ html, body{
         margin: 0 0.3rem;
       }
 
-      .top-menu .social-media a:last :last-child {
+      .top-menu .social-media a :last-child {
         margin: 0 0 0 0.3rem;
       }
 
-      .mallorca{
-        color:blue;
+    .first-photo .flight a{
+      display: grid;
+      margin: 3rem;
+      align-items: center;
+      margin-left: 32.2rem;
+     
+    }
+   
+
+    .first-photo .photo-text h5{
+      margin:1rem;
+      display: flex;
+      justify-content: center;
+      color: red;
+    }
+
+  .nature {
+    margin: 3rem;
+  }
+      .nature #beaches h2{
+        text-align: center;
+        color: #6495ED;
       }
+    .nature .second-photo img{
+      display: grid;
+      align-items: center;
+      margin-left: 23rem;
+    }
+    .nature .second-text p{
+      margin:2rem;
+      text-align: center;
+      color:#6495ED
+    }
 
 
-div.first{
-  position: center;
-  top: 0;
-  padding: 5px;
-  background-color: rgba(255, 255, 0, 0.84);
-  border: 2px solid rgb(143, 230, 133);
-            }
-  
-.beaches{
-  position: center;
-  display: table;
-  margin: 0 auto;
-             } 
-
-.main-heading {
-  text-align: center;
-  background: yellow;
-  color: red;
-  border: 1px solid red;
-  width: 75%;
-  margin: auto;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 30px 30px 30px #b88181;
-    } 
-
-div.container {
+.nature .container {
     text-align: center;
+    color: #6495ED;
   }
   
-  ul.myUL3 {
+
+#myUL-1 {
+   display: inline-block;
+   text-align: left;
+   }
+
+   .gourmet {
+    margin: 3rem;
+  }
+  .gourmet #food h2{
+    text-align: center;
+    color:#0000CD
+  }
+  .gourmet .third-photo img{
+    display:grid;
+    margin-left: 29rem;
+    align-items: center;
+    border: solid black;
+  }
+  .gourmet .third-text p{
+    margin:2rem;
+    text-align: center;
+    color:#0000FF
+  }
+  .gourmet .container {
+    text-align: center;
+    }
+  #myUL-2 {
+    display: inline-block;
+   text-align: left;
+   color: #0000FF;
+}
+
+.money {
+  margin:3rem;
+}
+.money #shopping h2{
+  text-align: center;
+  color:#FF00FF
+}
+.money .clothes-photo img {
+  display:grid;
+  align-items: center;
+  margin-left: 26rem;
+  }
+  .money .shop-text p{
+    margin: 2rem;
+    text-align: center;
+    color:#FF00FF ;
+  }
+  .money .container{
+    text-align: center;
+   
+  }
+  #myUL-3{
     display: inline-block;
     text-align: left;
+    color:#ff4da6;
   }
 
-  #footerline {
-    max-width: 980px;
-    text-align: right;
+  .main-heading {
+    text-align: center;
+    background: yellow;
+    color: red;
+    border: 1px solid red;
+    width: 100%;
     margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 30px 30px 30px #b88181;
+      } 
+      
+      .main-heading .mallorca h1{
+        color: blue;
+      }
+      .main-heading .first h4{
+        align-items: center;
+      }
+
+      .info-text {
+        margin: 3rem;
+      }
+      .info-text .information p{
+        color: green;
+       text-align: center;
+      }
+      .opening-hours .center{
+       margin-left: auto;
+       margin-right: auto;
+      }
+    .the-end .wiki h6{
+      margin-top: 3rem;
+     text-align: center;
+     }
+  #wiki-link a{
+    display: grid;
+    color: #FF00FF;
+    margin-left: 41rem;
+  
+  }
+    
+    
+
+  #footerline {
+    max-width: 100%;
+    text-align: end;
+    margin: 3rem;
 }
